@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Tuber - Registration</title>
+	<!-- META TAGS -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">-->
+	<meta name="author" content="Abdullah">
+
+	<!-- STYLES -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/flexslider.css">
+	<link rel="stylesheet" href="assets/css/animsition.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.css">
+
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+
+<body class="animsition">
+	<!-- Border -->
+	<span class="frame-line top-frame visible-lg"></span>
+	<span class="frame-line right-frame visible-lg"></span>
+	<span class="frame-line bottom-frame visible-lg"></span>
+	<span class="frame-line left-frame visible-lg"></span>
+	<!-- HEADER  -->
+	<header class="main-header">
+		<div class="container-fluid">
+				<!-- box header -->
+				<div class="box-header">
+						<div class="box-logo">
+								<!--<a href="index.html"><img src="assets/img/logo.png" width="80" alt="Logo"></a>-->
+						</div>
+						<!-- box-nav -->
+						<a class="box-primary-nav-trigger" href="#0">
+								<span class="box-menu-icon"></span>
+						</a>
+						<!-- box-primary-nav-trigger -->
+				</div>
+				<!-- end box header -->
+
+				<!-- nav -->
+				<nav>
+						<ul class="box-primary-nav">
+              <li class="box-label">Tuber</li>
+
+              <li><a href="index.html">Home</a> <i class="lnr lnr-home"></i></li>
+              <li><a href="registration.html">Register</a></li>
+              <li><a href="price.html">Prices</a></li>
+              <li><a href="contact.html">contact</a></li>
+
+              <li class="box-label">Members</li>
+              <li><a href="login.html">Login</a></li>
+						</ul>
+				</nav>
+				<!-- end nav -->
+		</div>
+	</header>
+	<!-- HERO SECTION  -->
+	<div class="site-hero_2">
+		<div class="section-overlay"></div>
+		<div class="page-title">
+			<h2>Register</h2>
+			<div class="small-title">home / register / student / </div>
+		</div>
+	</div>
+<h3  style="text-align:center">Student Registration:</h3>
+
+<style type="text/css">
+.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="password"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	margin: 0;
+	outline: 0;
+	padding: 7px;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="password"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style-5 .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #109177;
+}
+
+</style>
+</head>
+
+<body>
+<div class="form-style-5">
+<form>
+<fieldset>
+<legend><span class="number">1</span> Student Info</legend>
+<input type="text" name="studentFirstName" placeholder="First Name *">
+<input type="text" name="studentLastName" placeholder="Last Name *">
+<input type="text" name="studentAddress" placeholder="House Address *">
+<input type="text" name="studentAddressZipcode" placeholder="Zipcode *">
+<input type="email" name="studentEmail" placeholder="Email *">
+<input type="password" name="studentPassword" placeholder="Password *">
+<br><br>
+<!--<textarea name="field3" placeholder="About yourself"></textarea>-->
+</fieldset>
+<fieldset>
+<legend><span class="number">2</span> School Info</legend>
+<label for="job">grade level:</label>
+<select  name="studentGradeLevel">
+<optgroup label="Middle School">
+  <option value="empty">Select your grade level.</option>
+  <option value="seventhGrade">7th Grade</option>
+  <option value="eighthGrade">8th Grade</option>
+</optgroup>
+<optgroup label="High School">
+  <option value="ninthGrade">9th Grade</option>
+  <option value="tenthGrade">10th Grade</option>
+  <option value="eleventhGrade">11th Grade</option>
+  <option value="twelevthGrade">12th Grade</option>
+</optgroup>
+<optgroup label="College">
+  <option value="associateDegree">Associate degree</option>
+  <option value="bachelorsDegree">Bachelor's degree</option>
+  <option value="mastersDegree">Master's degree</option>
+  <option value="doctoralDegree">Doctoral degree</option>
+</optgroup>
+</select>
+<textarea name="schoolName" placeholder="School Name"></textarea>
+</fieldset>
+<input type="submit" value="Apply" />
+</form>
+</div>
+
+	<!-- Footer -->
+	<footer class="main-footer">
+		<svg preserveAspectRatio="none" viewBox="0 0 100 102" height="100" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+			<path d="M0 0 L50 100 L100 0 Z" fill="#fff" stroke="#fff"></path>
+		</svg>
+            <div class="container">
+                <div class="row mt-100 mb-50 footer-widgets">
+                    <!-- Start Contact Widget -->
+                    <div class="col-md-6 col-xs-12">
+                        <div class="footer-widget contact-widget">
+                            <!--<img src="assets/img/footerlogo.png" class="logo-footer img-responsive" alt="Footer Logo" />-->
+                            <p>Neeeds work</p>
+                            <ul class="social-icons">
+                                <li>
+                                    <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                                </li>
+                                <li>
+                                    <a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a class="flickr" href="#"><i class="fa fa-flickr"></i></a>
+                                </li>
+                                <li>
+                                    <a class="tumblr" href="#"><i class="fa fa-tumblr"></i></a>
+                                </li>
+                                <li>
+                                    <a class="instgram" href="#"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
+                                </li>
+                                <li>
+                                    <a class="skype" href="#"><i class="fa fa-skype"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- .col-md-3 -->
+                    <!-- End Contact Widget -->
+
+                    <!-- Start Twitter Widget -->
+                    <div class="col-md-3 col-xs-12">
+                        <div class="footer-widget twitter-widget">
+                            <h4>Twitter</h4>
+														Email: somecompany@example.com <br>
+														Phone: Needs work,
+                        </div>
+                    </div><!-- .col-md-3 -->
+                    <!-- End Twitter Widget -->
+
+                    <!-- Start Flickr Widget -->
+                    <div class="col-md-3 col-xs-12">
+                        <div class="footer-widget company-links">
+                            <h4>Tuber</h4>
+							<ul class="footer-links">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Our Products</a></li>
+								<li><a href="#">Our Culture</a></li>
+								<li><a href="#">Team</a></li>
+							</ul>
+                        </div>
+                    </div><!-- .col-md-3 -->
+                    <!-- End Flickr Widget -->
+                </div><!-- .row -->
+            </div>
+	</footer>
+
+	<!-- SCRIPTS -->
+	<script type="text/javascript" src="assets/js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="assets/js/animated-headline.js"></script>
+	<script type="text/javascript" src="assets/js/menu.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.js"></script>
+	<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.animsition.min.js"></script>
+	<script type="text/javascript" src="assets/js/init.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
+	<script type="text/javascript" src="assets/js/numscroller.js"></script>
+	<script type="text/javascript" src="assets/js/wow.min.js"></script>
+	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+			new WOW().init();
+
+			// initialise flexslider
+			$('.flexslider').flexslider({
+				animation: "fade",
+				directionNav: true,
+				controlNav: false,
+				keyboardNav: true,
+				slideToStart: 0,
+				animationLoop: true,
+				pauseOnHover: false,
+				slideshowSpeed: 4000,
+			});
+
+			smoothScroll.init();
+
+			// initialize isotope
+			var $container = $('.portfolio_container');
+			$container.isotope({
+				filter: '*',
+			});
+
+			$('.portfolio_filter a').click(function(){
+				$('.portfolio_filter .active').removeClass('active');
+				$(this).addClass('active');
+
+				var selector = $(this).attr('data-filter');
+				$container.isotope({
+					filter: selector,
+					animationOptions: {
+						duration: 500,
+						animationEngine : "jquery"
+					}
+				});
+				return false;
+			});
+		});
+	</script>
+</body>
+</html>
