@@ -1,6 +1,6 @@
 <?php
 //Step1
- $db = mysqli_connect('my_laptop_ip_address','user_name','password','tubur')
+ $db = mysqli_connect('localhost','root','root','tuber')
  or die('Error connecting to MySQL server.');
 ?>
 
@@ -12,8 +12,14 @@
  
 <?php
 //Step2
-$query = "SELECT * FROM table_name";
+$query = "SELECT * FROM student";
 mysqli_query($db, $query) or die('Error querying database.');
+$result = mysqli_query($db, $query);
+$row = mysqli_fetch_array($result);
+while ($row = mysqli_fetch_array($result)) {
+ echo $row['firstname'] . ' ' . $row['lastname'] . ': ' . $row['email'] . ' '  .'<br />';
+}
+mysqli_close($db);
 ?>
 
 </body>
