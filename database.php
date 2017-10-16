@@ -1,6 +1,6 @@
 <?php
 //Step1
- $db = mysqli_connect('my_laptop_ip_address','user_name','password','tubur')
+ $db = mysqli_connect('172.16.2.12','newuser','thisisthenewuser','tuber')
  or die('Error connecting to MySQL server.');
 ?>
 
